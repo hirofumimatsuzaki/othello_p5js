@@ -26,7 +26,6 @@ function setup() {
 function draw() {
   background(0, 140, 0);
   print(count);
-  // print(kururi);
   for (let i = 0; i < 8; i++) {
     for (let j = 0; j < 8; j++) {
       line(j * 50, 0, j * 50, height);
@@ -148,8 +147,6 @@ function mousePressed() {
       }
       count--;
     }
-
-
   }
 }
 
